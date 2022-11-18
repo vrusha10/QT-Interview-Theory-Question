@@ -1,0 +1,54 @@
+What is QMake?
+It is makefile tool.
+QT Interview Question
+
+What is CMake?
+It is build configuration tool.
+you can use any software project.
+you can easy to configuration,debug and build your project.
+it is require only c++ comipler.
+
+What is Framework?
+Framework is essential structure of bulding.
+
+What is QObject_macro?
+It is enable moc feature.
+it is private class.
+It is base class of all QObject model.
+It will tell to compiler that this class having own signal and slot.
+
+What is Qt?
+Qt is the cross platform application of framework.
+it is widely used to devloping application of software than can run various harware and software.
+
+What is Qml?
+Qml is the name of language.
+Qml satnd for Qt Meta Language.
+QtQuick toolkit allow for Qml language.
+
+Limination Of Moc?
+Template class cannot have signal and slot.
+Function pointer cannot have d=signal and slot.
+Nested class cannot have signal and slot.
+Macro cannot have signal and slot.
+
+What is Moc?
+Moc is Meta Object Compiler that can handel Qt c++ program extension.
+Moc tool read only cpp header file and it is find 1 or more class decalration that contain QObject.
+
+what is Widget?
+Basic building block for graphical user interface application built with qt.
+QWidget class is base class of all user interface object.
+
+what is OObject?
+QObject is the base class of all qt classes.
+it is heart of qt model object.
+
+What is Signal and Slot?
+It is centeral feature of model is very powerful mechanism for seamless communication.
+It is used for communation between object.
+if you connect signal and slot with connect().
+if you destroyed signal and slot with disconnect().
+
+Syntax of Signal and Slot?
+connect(sender,signal(valueChange()),this,reciver,slot(valueChange()));
