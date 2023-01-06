@@ -35,6 +35,7 @@ Macro cannot have signal and slot.
 What is Moc?
 Moc is Meta Object Compiler that can handel Qt c++ program extension.
 Moc tool read only cpp header file and it is find 1 or more class decalration that contain QObject.
+It is provide signal and slot mechanisms for intern object communication,run type information and dynamic property system.
 
 what is Widget?
 Basic building block for graphical user interface application built with qt.
@@ -52,3 +53,18 @@ if you destroyed signal and slot with disconnect().
 
 Syntax of Signal and Slot?
 connect(sender,signal(valueChange()),this,reciver,slot(valueChange()));
+
+What is QEngine?
+It is provide the enviroment for executing Qml code.Every Application require at least one engine instance.
+
+What is QmlComponent?
+A component encapsulates Qml information.
+
+What is QmlContext?
+It is allow application to expose data into the Qml component created by engine.
+
+Qml To Cpp 
+1) Cpp class using signal and slots.
+2)Call signal and slots from global instance.
+3)Create Qml type with your cpp functionality.
+4)Can have multiple instance of same class.
